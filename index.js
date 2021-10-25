@@ -123,7 +123,7 @@ mhan = await denz.prepareMessage(mdata.id, buff, MessageType.image, {thumbnail: 
 const buttonMessages = {
 imageMessage: mhan.message.imageMessage,
 contentText: `${masuk}`,
-footerText: `ꪶ𝑨𝑴𝑬𝑬𝑵 ⇥𝑺𝑬𝑹ꫂ⁩`, 
+footerText: `ꪶ𝑳𝑶𝑹𝑫 ⇥𝑺𝑬𝑹ꫂ⁩`, 
 buttons: gbutsan,
 headerType: 4
 }
@@ -153,7 +153,7 @@ mhan = await denz.prepareMessage(mdata.id, buff, MessageType.image, {thumbnail: 
 const buttonMessages = {
 imageMessage: mhan.message.imageMessage,
 contentText: `${keluar}`,
-footerText: `𝚆𝙷𝙰𝚃𝚜𝙰𝙼𝙴𝙴𝙽©™`,
+footerText: `𝚆𝙷𝙰𝚃𝚜𝙻𝙾𝚁𝙳©™`,
 buttons: gbutsan,
 headerType: 4
 }
@@ -163,9 +163,9 @@ denz.sendMessage(mdata.id, buttonMessages, MessageType.buttonsMessage, {
             mentionedJid: [num]},
         caption: 'Tes',
             quoted: fkontakk})
-            //sendButLocation(mdata.id, `${keluar}`, `${uwu}𝙰 𝙼𝙴𝙴𝙽 右${uwu}`, {jpegThumbnail:buff}, [{buttonId:`Zmenu`,buttonText:{displayText:'BYEE'},type:1}], {contextInfo: { mentionedJid: [num]}})
+            //sendButLocation(mdata.id, `${keluar}`, `${uwu}𝙻 𝙾𝚁𝙳 右${uwu}`, {jpegThumbnail:buff}, [{buttonId:`Zmenu`,buttonText:{displayText:'BYEE'},type:1}], {contextInfo: { mentionedJid: [num]}})
 			} else if (anu.action == 'promote') {
-fkontakk = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '6283136505591-1604595598@g.us' } : {})}, message: { "contactMessage":{"displayName": `${mdata.subject}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;Denz;;;\nFN:Denz\nitem1.TEL;waid=917994999899:9179949909899\nitem1.X-ABLabel:𝙸𝚗𝚍𝚒𝚊\nEND:VCARD` }}}
+fkontakk = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '6283136505591-1604595598@g.us' } : {})}, message: { "contactMessage":{"displayName": `${mdata.subject}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;Denz;;;\nFN:Denz\nitem1.TEL;waid=919778383987:919778383987\nitem1.X-ABLabel:𝙸𝚗𝚍𝚒𝚊\nEND:VCARD` }}}
 num = anu.participants[0]
 teks = `*𝙿 𝚁 𝙾 𝙼 𝙾 𝚃 𝙴 - 𝙳 𝙴 𝚃 𝙴 𝙲 𝚃 𝙴 𝙳*\n Username: @${num.split('@')[0]}\n Time : ${moment.tz('Asia/Kolkata').format('DD/MM HH:mm:ss')}\n Group: ${mdata.subject}`
 denz.sendMessage(mdata.id, teks, MessageType.text, {contextInfo: {"mentionedJid": [num]}, quoted: fkontakk})
@@ -239,7 +239,7 @@ denz.sendMessage(m.key.remoteJid, `▷\`\`\`𝙰𝙽𝚃𝙸 𝙳𝙴𝙻𝙴�
 
 ➬ \`\`\`𝙽𝙰𝙼𝙴 : @${m.participant.split("@")[0]}\`\`\`
 ➬ \`\`\`𝚃𝚈𝙿𝙴 : ${c3type}\`\`\`
-➬ \`\`\`𝙱𝙾𝚃 : 𝙿𝚁𝙸𝚅𝙰𝚃𝙴 - 𝙱𝙾𝚃 𝙱𝚈 - ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹ꫂ⁩⁩\`\`\``, MessageType.text, {quoted: m.message, contextInfo: {"mentionedJid": [m.participant]}})
+➬ \`\`\`𝙱𝙾𝚃 : 𝙿𝚁𝙸𝚅𝙰𝚃𝙴 - 𝙱𝙾𝚃 𝙱𝚈 - ꕥ𝑳𝑶𝑹𝑫⇥𝑺𝑬𝑹ꕥ\`\`\``, MessageType.text, {quoted: m.message, contextInfo: {"mentionedJid": [m.participant]}})
 }
 })
 }
