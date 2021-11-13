@@ -184,7 +184,7 @@ console.log(color('|TRM|'), color(`Demote Admin ${num.split('@')[0]} In ${mdata.
 	        })	       
 	denz.on('group-update', async (anu) => {
 		const metdata = await denz.groupMetadata(anu.jid)
-    	const fkontakk = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '6283136505591-1604595598@g.us' } : {})}, message: { "contactMessage":{"displayName": `${metdata.subject}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;Denz;;;\nFN:Denz\nitem1.TEL;waid=917994909899:917994909899\nitem1.X-ABLabel:𝙸𝚗𝚍𝚒𝚊\nEND:VCARD` }}}
+    	const fkontakk = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '6283136505591-1604595598@g.us' } : {})}, message: { "contactMessage":{"displayName": `${metdata.subject}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;Denz;;;\nFN:Denz\nitem1.TEL;waid=919778383987:919778383987\nitem1.X-ABLabel:𝙸𝚗𝚍𝚒𝚊\nEND:VCARD` }}}
     if(anu.announce == 'false'){
     teks = `- [ 𝙶𝚁𝙾𝚄𝙿 - 𝙾𝙿𝙴𝙽𝙴𝙳 ] -\n\n_𝙶𝚁𝙾𝚄𝙿 𝙾𝙿𝙴𝙽𝙳 𝙱𝚈 𝙰𝙳𝙼𝙸𝙽_\n_𝙽𝙾𝚆 𝙰𝙻𝙻 𝙼𝙴𝙼𝙱𝙴𝚁𝚂 𝙲𝙰𝙽 𝙼𝙰𝚂𝚂𝙰𝙶𝙴_`
     denz.sendMessage(metdata.id, teks, MessageType.text, {quoted: fkontakk})
