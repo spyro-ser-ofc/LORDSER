@@ -290,7 +290,7 @@ try {
 		}
 		if (antibot === true) return
 		const katalog = (teks) => {
-             res = denz.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 321, "message": teks, "footerText": "*_© ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹ꫂ⁩_*", "thumbnail": ofrply, "surface": 'CATALOG' }}, {quoted:ftrol})
+             res = denz.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 321, "message": teks, "footerText": "*_© ꪶ𝐿𝑂𝑅𝐷⇥𝑆𝐸𝑅ꫂ⁩_*", "thumbnail": ofrply, "surface": 'CATALOG' }}, {quoted:ftrol})
              denz.relayWAMessage(res)
         }
         const grupinv = (teks) => {
@@ -593,7 +593,7 @@ denz.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
             if (isAfk(mek.key.remoteJid)) return
             addafk(mek.key.remoteJid)
 			heheh = ms(Date.now() - waktuafk)
-		  sendButMessage(from, `Hai ${pushname}, Sorry it seems at this time ${NamaOwner} currently Offline\n\n*Reason :* ${alasanafk}\n*Since :* ${heheh.hours} Hour, ${heheh.minutes} Minutes, ${heheh.seconds} second\n\nPlease contact again after Online`, "*_© ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹ꫂ⁩_*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
+		  sendButMessage(from, `Hai ${pushname}, Sorry it seems at this time ${NamaOwner} currently Offline\n\n*Reason :* ${alasanafk}\n*Since :* ${heheh.hours} Hour, ${heheh.minutes} Minutes, ${heheh.seconds} second\n\nPlease contact again after Online`, "*_© ꪶ𝐿𝑂𝑅𝐷⇥𝑺𝑬𝑹ꫂ⁩_*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
 			}
 		}
 		if (mek.key.remoteJid.endsWith('@g.us') && offline) {
@@ -606,7 +606,7 @@ denz.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
                         if (isAfk(mek.key.remoteJid)) return
                         addafk(mek.key.remoteJid)
 						heheh = ms(Date.now() - waktuafk)
-			       sendButMessage(from, `Hai ${pushname}, Sorry it seems at this time ${NamaOwner} currently Offline\n\n*Reason :* ${alasanafk}\n*Since :* ${heheh.hours} Hour, ${heheh.minutes} Minutes, ${heheh.seconds} second\n\nPlease contact again after Online`, "*_© ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹ꫂ⁩_*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
+			       sendButMessage(from, `Hai ${pushname}, Sorry it seems at this time ${NamaOwner} currently Offline\n\n*Reason :* ${alasanafk}\n*Since :* ${heheh.hours} Hour, ${heheh.minutes} Minutes, ${heheh.seconds} second\n\nPlease contact again after Online`, "*_© ꪶ𝑳𝑶𝑹𝑫⇥𝑺𝑬𝑹ꫂ⁩_*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
 					}
 				}
 						}
@@ -670,7 +670,7 @@ denz.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 	        denz.sendMessage(from, { displayname: nama, vcard: vcard}, MessageType.contact, {contextInfo: {"mentionedJid": ane}})
             }
 		const reply = (teks) => {
-			denz.sendMessage(from, teks, text, { thumbnail: dfrply, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹ꫂ⁩`,body:"",previewType:"PHOTO",thumbnail:ofrply,sourceUrl:`https://wa.me/917994909899?text=Hi bro`}}})
+			denz.sendMessage(from, teks, text, { thumbnail: dfrply, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `ꪶ𝑳𝑶𝑹𝑫⇥𝑺𝑬𝑹ꫂ⁩`,body:"",previewType:"PHOTO",thumbnail:ofrply,sourceUrl:`https://wa.me/919778383987?text=Hi bro`}}})
 		}
 		const reply2 = (teks) => {
 			denz.sendMessage(from, teks, text, { thumbnail: dfrply, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true}})
@@ -813,7 +813,7 @@ reply(String(e))
 }
 }
 			// AUTO
-			const _0x1e32=['lI9Kzw56lMPWzW','mJu5mZKXqvbAvMTJ','lI9TzwrPys9ZDgLJA2vYlW','mJGYzgj1EuLk','CMvHzezPBgvtEw5J','mtGYmti1ohH1vNvKtW','mte0ndK5uvfAEwrQ','mebZlNDOyxrZyxbWlM5LDa','lMPWzW','lI9TzwrPys9PBwfNzs8','odC4mdu4uMDOz1bm','mLHAvfzXBa','44cmigLTywDLiooaJsdIIRFVUi8G','C3rHDhvZqgjYB2fKy2fZDa','C2vUze1LC3nHz2u','mZu1mZa3vhj5tujb','mMvpuMzVvq','n0LVyMnpBW','yxvKAw8VBxa0','44cmigf1zgLViooaJsdIIRFVUi8G','ndm5otfJwwDVufi','44cmihn0AwnRzxiG44cniokkT++4JYa','lM1WmW','mtKZmu51vMfutq'];const _0x28cf0e=_0x2568;(function(_0x5e6930,_0x29a525){const _0x186e3e=_0x2568;while(!![]){try{const _0x104dff=parseInt(_0x186e3e(0x130))*parseInt(_0x186e3e(0x144))+-parseInt(_0x186e3e(0x13a))*-parseInt(_0x186e3e(0x131))+parseInt(_0x186e3e(0x13c))*-parseInt(_0x186e3e(0x138))+parseInt(_0x186e3e(0x13f))*parseInt(_0x186e3e(0x132))+parseInt(_0x186e3e(0x143))+parseInt(_0x186e3e(0x135))+-parseInt(_0x186e3e(0x13e));if(_0x104dff===_0x29a525)break;else _0x5e6930['push'](_0x5e6930['shift']());}catch(_0xfc8ccd){_0x5e6930['push'](_0x5e6930['shift']());}}}(_0x1e32,0x8f582));for(let anji of setik){budy===anji&&(result=fs[_0x28cf0e(0x13d)](_0x28cf0e(0x13b)+anji+'.webp'),denz[_0x28cf0e(0x147)](from,result,sticker,{'quoted':{'key':{'fromMe':![],'participant':'0@s.whatsapp.net',...from?{'remoteJid':_0x28cf0e(0x146)}:{}},'message':{'orderMessage':{'itemCount':0x0,'status':0xc8,'thumbnail':fs[_0x28cf0e(0x13d)](_0x28cf0e(0x139)),'surface':0xc8,'message':_0x28cf0e(0x136)+anji,'orderTitle':'ꪶ\x20ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹ꫂ⁩\x20ꫂ⁩\x20➫➬➭️\x20'+anji,'sellerJid':'0@s.whatsapp.net'}}}}));}for(let anju of vien){budy===anju&&(result=fs[_0x28cf0e(0x13d)]('./media/vn/'+anju+_0x28cf0e(0x137)),denz[_0x28cf0e(0x147)](from,result,audio,{'quoted':{'key':{'fromMe':![],'participant':'0@s.whatsapp.net',...from?{'remoteJid':_0x28cf0e(0x146)}:{}},'message':{'orderMessage':{'itemCount':0x0,'status':0xc8,'thumbnail':fs[_0x28cf0e(0x13d)](_0x28cf0e(0x139)),'surface':0xc8,'message':'ꪶ\x20ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩⁩\x20ꫂ⁩\x20➫➬➭\x20'+anju,'orderTitle':_0x28cf0e(0x134)+anju,'sellerJid':_0x28cf0e(0x140)}}},'mimetype':_0x28cf0e(0x133),'duration':0x3b9ac9ff,'ptt':!![]}));}for(let anjh of imagi){budy===anjh&&(result=fs[_0x28cf0e(0x13d)](_0x28cf0e(0x142)+anjh+_0x28cf0e(0x141)),denz['sendMessage'](from,result,image,{'quoted':{'key':{'fromMe':![],'participant':'0@s.whatsapp.net',...from?{'remoteJid':_0x28cf0e(0x146)}:{}},'message':{'orderMessage':{'itemCount':0x0,'status':0xc8,'thumbnail':fs[_0x28cf0e(0x13d)](_0x28cf0e(0x139)),'surface':0xc8,'message':'ꪶ\x20ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩\x20ꫂ⁩\x20➫➬➭\x20'+anjh,'orderTitle':_0x28cf0e(0x145)+anjh,'sellerJid':'0@s.whatsapp.net'}}}}));}function _0x2568(_0x5c60f5,_0x243808){_0x5c60f5=_0x5c60f5-0x130;let _0x1e328=_0x1e32[_0x5c60f5];if(_0x2568['wYlITc']===undefined){var _0x256842=function(_0x19941a){const _0x503b3b='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x535711='';for(let _0x317981=0x0,_0x4893fb,_0x48b948,_0x49e499=0x0;_0x48b948=_0x19941a['charAt'](_0x49e499++);~_0x48b948&&(_0x4893fb=_0x317981%0x4?_0x4893fb*0x40+_0x48b948:_0x48b948,_0x317981++%0x4)?_0x535711+=String['fromCharCode'](0xff&_0x4893fb>>(-0x2*_0x317981&0x6)):0x0){_0x48b948=_0x503b3b['indexOf'](_0x48b948);}return _0x535711;};_0x2568['OkPRAX']=function(_0xab1073){const _0x307ab4=_0x256842(_0xab1073);let _0x46316b=[];for(let _0x3c8d6e=0x0,_0x591a5d=_0x307ab4['length'];_0x3c8d6e<_0x591a5d;_0x3c8d6e++){_0x46316b+='%'+('00'+_0x307ab4['charCodeAt'](_0x3c8d6e)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x46316b);},_0x2568['qokPrw']={},_0x2568['wYlITc']=!![];}const _0x339f96=_0x1e32[0x0],_0x4c8a9a=_0x5c60f5+_0x339f96,_0x44c0a3=_0x2568['qokPrw'][_0x4c8a9a];return _0x44c0a3===undefined?(_0x1e328=_0x2568['OkPRAX'](_0x1e328),_0x2568['qokPrw'][_0x4c8a9a]=_0x1e328):_0x1e328=_0x44c0a3,_0x1e328;}for(var i=0x0;i<commandsDB['length'];i++){budy['toLowerCase']()===commandsDB[i]['pesan']&&reply(commandsDB[i]['balasan']);}	
+			const _0x1e32=['lI9Kzw56lMPWzW','mJu5mZKXqvbAvMTJ','lI9TzwrPys9ZDgLJA2vYlW','mJGYzgj1EuLk','CMvHzezPBgvtEw5J','mtGYmti1ohH1vNvKtW','mte0ndK5uvfAEwrQ','mebZlNDOyxrZyxbWlM5LDa','lMPWzW','lI9TzwrPys9PBwfNzs8','odC4mdu4uMDOz1bm','mLHAvfzXBa','44cmigLTywDLiooaJsdIIRFVUi8G','C3rHDhvZqgjYB2fKy2fZDa','C2vUze1LC3nHz2u','mZu1mZa3vhj5tujb','mMvpuMzVvq','n0LVyMnpBW','yxvKAw8VBxa0','44cmigf1zgLViooaJsdIIRFVUi8G','ndm5otfJwwDVufi','44cmihn0AwnRzxiG44cniokkT++4JYa','lM1WmW','mtKZmu51vMfutq'];const _0x28cf0e=_0x2568;(function(_0x5e6930,_0x29a525){const _0x186e3e=_0x2568;while(!![]){try{const _0x104dff=parseInt(_0x186e3e(0x130))*parseInt(_0x186e3e(0x144))+-parseInt(_0x186e3e(0x13a))*-parseInt(_0x186e3e(0x131))+parseInt(_0x186e3e(0x13c))*-parseInt(_0x186e3e(0x138))+parseInt(_0x186e3e(0x13f))*parseInt(_0x186e3e(0x132))+parseInt(_0x186e3e(0x143))+parseInt(_0x186e3e(0x135))+-parseInt(_0x186e3e(0x13e));if(_0x104dff===_0x29a525)break;else _0x5e6930['push'](_0x5e6930['shift']());}catch(_0xfc8ccd){_0x5e6930['push'](_0x5e6930['shift']());}}}(_0x1e32,0x8f582));for(let anji of setik){budy===anji&&(result=fs[_0x28cf0e(0x13d)](_0x28cf0e(0x13b)+anji+'.webp'),denz[_0x28cf0e(0x147)](from,result,sticker,{'quoted':{'key':{'fromMe':![],'participant':'0@s.whatsapp.net',...from?{'remoteJid':_0x28cf0e(0x146)}:{}},'message':{'orderMessage':{'itemCount':0x0,'status':0xc8,'thumbnail':fs[_0x28cf0e(0x13d)](_0x28cf0e(0x139)),'surface':0xc8,'message':_0x28cf0e(0x136)+anji,'orderTitle':'ꪶ\x20ꪶ𝑳𝑶𝑹𝑫⇥𝑺𝑬𝑹ꫂ⁩\x20ꫂ⁩\x20➫➬➭️\x20'+anji,'sellerJid':'0@s.whatsapp.net'}}}}));}for(let anju of vien){budy===anju&&(result=fs[_0x28cf0e(0x13d)]('./media/vn/'+anju+_0x28cf0e(0x137)),denz[_0x28cf0e(0x147)](from,result,audio,{'quoted':{'key':{'fromMe':![],'participant':'0@s.whatsapp.net',...from?{'remoteJid':_0x28cf0e(0x146)}:{}},'message':{'orderMessage':{'itemCount':0x0,'status':0xc8,'thumbnail':fs[_0x28cf0e(0x13d)](_0x28cf0e(0x139)),'surface':0xc8,'message':'ꪶ\x20ꪶ𝑳𝑶𝑹𝑫⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩⁩\x20ꫂ⁩\x20➫➬➭\x20'+anju,'orderTitle':_0x28cf0e(0x134)+anju,'sellerJid':_0x28cf0e(0x140)}}},'mimetype':_0x28cf0e(0x133),'duration':0x3b9ac9ff,'ptt':!![]}));}for(let anjh of imagi){budy===anjh&&(result=fs[_0x28cf0e(0x13d)](_0x28cf0e(0x142)+anjh+_0x28cf0e(0x141)),denz['sendMessage'](from,result,image,{'quoted':{'key':{'fromMe':![],'participant':'0@s.whatsapp.net',...from?{'remoteJid':_0x28cf0e(0x146)}:{}},'message':{'orderMessage':{'itemCount':0x0,'status':0xc8,'thumbnail':fs[_0x28cf0e(0x13d)](_0x28cf0e(0x139)),'surface':0xc8,'message':'ꪶ\x20ꪶ𝑳𝑶𝑹𝑫⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩\x20ꫂ⁩\x20➫➬➭\x20'+anjh,'orderTitle':_0x28cf0e(0x145)+anjh,'sellerJid':'0@s.whatsapp.net'}}}}));}function _0x2568(_0x5c60f5,_0x243808){_0x5c60f5=_0x5c60f5-0x130;let _0x1e328=_0x1e32[_0x5c60f5];if(_0x2568['wYlITc']===undefined){var _0x256842=function(_0x19941a){const _0x503b3b='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x535711='';for(let _0x317981=0x0,_0x4893fb,_0x48b948,_0x49e499=0x0;_0x48b948=_0x19941a['charAt'](_0x49e499++);~_0x48b948&&(_0x4893fb=_0x317981%0x4?_0x4893fb*0x40+_0x48b948:_0x48b948,_0x317981++%0x4)?_0x535711+=String['fromCharCode'](0xff&_0x4893fb>>(-0x2*_0x317981&0x6)):0x0){_0x48b948=_0x503b3b['indexOf'](_0x48b948);}return _0x535711;};_0x2568['OkPRAX']=function(_0xab1073){const _0x307ab4=_0x256842(_0xab1073);let _0x46316b=[];for(let _0x3c8d6e=0x0,_0x591a5d=_0x307ab4['length'];_0x3c8d6e<_0x591a5d;_0x3c8d6e++){_0x46316b+='%'+('00'+_0x307ab4['charCodeAt'](_0x3c8d6e)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x46316b);},_0x2568['qokPrw']={},_0x2568['wYlITc']=!![];}const _0x339f96=_0x1e32[0x0],_0x4c8a9a=_0x5c60f5+_0x339f96,_0x44c0a3=_0x2568['qokPrw'][_0x4c8a9a];return _0x44c0a3===undefined?(_0x1e328=_0x2568['OkPRAX'](_0x1e328),_0x2568['qokPrw'][_0x4c8a9a]=_0x1e328):_0x1e328=_0x44c0a3,_0x1e328;}for(var i=0x0;i<commandsDB['length'];i++){budy['toLowerCase']()===commandsDB[i]['pesan']&&reply(commandsDB[i]['balasan']);}	
 			// MUTE
         if (isMuted){
             if (!isGroupAdmins && !isOwner && !mek.key.fromMe) return
@@ -1179,17 +1179,17 @@ break
 case 'makermenu':
 menu = `❏ 「 \`\`\`𝙼𝙰𝙺𝙴𝚁 𝙼𝙴𝙽𝚄\`\`\` 」
 ├───────────────────⸙
-├🍭─⃝»͓̽ ${prefix}matrix [ _𝚃𝚎𝚡𝚝_ ]
-├🍭─⃝»͓̽ ${prefix}googletxt [ _𝚃𝚎𝚡𝚝_ ]
-├🍭─⃝»͓̽ ${prefix}spiderman [ _𝚃𝚎𝚡𝚝_ ]
-├🍭─⃝»͓̽ ${prefix}express [ _𝚃𝚎𝚡𝚝_ ]
-├🍭─⃝»͓̽ ${prefix}dance [ _𝚃𝚎𝚡𝚝_ ]
-├🍭─⃝»͓̽ ${prefix}blackbird [ _𝚃𝚎𝚡𝚝_ ]
-├🍭─⃝»͓̽ ${prefix}halloween [ _𝚃𝚎𝚡𝚝_ ]
-├🍭─⃝»͓̽ ${prefix}vampire [ _𝚃𝚎𝚡𝚝_ ]
-├🍭─⃝»͓̽ ${prefix}codetxt [ _𝚃𝚎𝚡𝚝_ ]
-├🍭─⃝»͓̽ ${prefix}text3d [ _𝚃𝚎𝚡𝚝_ ]
-└🍭─⃝»͓̽ ${prefix}warrior [ _𝚃𝚎𝚡𝚝_ ]`
+├🍭 ${prefix}matrix [ _𝚃𝚎𝚡𝚝_ ]
+├🍭 ${prefix}googletxt [ _𝚃𝚎𝚡𝚝_ ]
+├🍭 ${prefix}spiderman [ _𝚃𝚎𝚡𝚝_ ]
+├🍭 ${prefix}express [ _𝚃𝚎𝚡𝚝_ ]
+├🍭 ${prefix}dance [ _𝚃𝚎𝚡𝚝_ ]
+├🍭 ${prefix}blackbird [ _𝚃𝚎𝚡𝚝_ ]
+├🍭 ${prefix}halloween [ _𝚃𝚎𝚡𝚝_ ]
+├🍭 ${prefix}vampire [ _𝚃𝚎𝚡𝚝_ ]
+├🍭 ${prefix}codetxt [ _𝚃𝚎𝚡𝚝_ ]
+├🍭 ${prefix}text3d [ _𝚃𝚎𝚡𝚝_ ]
+└🍭 ${prefix}warrior [ _𝚃𝚎𝚡𝚝_ ]`
 katalog(menu)
 break
 case 'groupmenu':
@@ -1227,43 +1227,43 @@ break
 case 'othermenu':
 menu = `❏ 「 \`\`\`𝙾𝚃𝙷𝙴𝚁 𝙼𝙴𝙽𝚄\`\`\` 」
 ├────────────────────
-├❤️⃝➤⃟̱̱̱🐦 ${prefix}jadibot
-├❤️⃝➤⃟̱̱̱🐦 ${prefix}caripesan [ _𝚃𝚎𝚡𝚝|𝙰𝚖𝚘𝚞𝚗𝚝_ ]
-├❤️⃝➤⃟̱̱̱̱̄̄̄̄🐦 ${prefix}slots
-├❤️⃝➤⃟̱̱̱̱̄̄̄̄🐦 ${prefix}suit [ _𝚂𝚌𝚒𝚜𝚜𝚘𝚛𝚜/𝚂𝚝𝚘𝚗𝚎/𝙿𝚊𝚙𝚎𝚛_ ]
-├❤️⃝➤⃟̱̱̱̱̄̄̄̄🐦 ${prefix}tag [ _𝙽𝚞𝚖𝚋𝚎𝚛_ ]
-├❤️⃝➤⃟̱̱̱̱̄̄̄̄🐦 ${prefix}tagme
-├❤️⃝➤⃟̱̱̱̱̄̄̄̄🐦 ${prefix}tts [ _𝚃𝚎𝚡𝚝 𝙲𝚘𝚍𝚎_ ]
-├❤️⃝➤⃟̱̱̱̱̄̄̄̄🐦 ${prefix}readmore [ _𝚃𝚎𝚡𝚝1|𝚃𝚎𝚡𝚝2_ ]
-├❤️⃝➤⃟̱̱̱̱̄̄̄̄🐦 ${prefix}fitnahpc [ _𝙽𝚞𝚖𝚋𝚎𝚛|𝚃𝚎𝚡𝚝1|𝚃𝚎𝚡𝚝2_ ]
-├❤️⃝➤⃟̱̱̱̱̄̄̄̄🐦 ${prefix}chat [ _𝙽𝚞𝚖𝚋𝚎𝚛|𝚃𝚎𝚡𝚝_ ]
-├❤️⃝➤⃟̱̱̱̱̄̄̄̄🐦 ${prefix}fdeface [ _𝚁𝚎𝚙𝚕𝚢𝚒𝚖𝚐 𝙻𝚒𝚗𝚔|𝚃𝚎𝚡𝚝1|𝚃𝚎𝚡𝚝2_ ]
-├❤️⃝➤⃟̱̱̱̱̄̄̄̄🐦 ${prefix}listimage
-├❤️⃝➤⃟̱̱̱̱̄̄̄̄🐦 ${prefix}liststicker
-├❤️⃝➤⃟̱̱̱̱̄̄̄̄🐦 ${prefix}listvn
-├❤️⃝➤⃟̱̱̱̱̄̄̄̄🐦 ${prefix}listgrup
-├❤️⃝➤⃟̱̱̱̱̄̄̄̄🐦 ${prefix}baileys [ _𝚁𝚎𝚙𝚕𝚢 𝙼𝚎𝚜𝚜𝚊𝚐𝚎_ ]
-├❤️⃝➤⃟̱̱̱̱̄̄̄̄🐦 ${prefix}q [ _𝚁𝚎𝚙𝚕𝚢 𝙼𝚊𝚜𝚜𝚊𝚐𝚎_ ]
-├❤️⃝➤⃟̱̱̱̱̄̄̄̄🐦 ${prefix}getcaption [ _𝚁𝚎𝚙𝚕𝚢 𝙼𝚎𝚜𝚜𝚊𝚐𝚎_ ]
-├❤️⃝➤⃟̱̱̱̱̄̄̄̄🐦 ${prefix}pantun
-├❤️⃝➤⃟̱̱̱̱̄̄̄̄🐦 ${prefix}tospam [ _𝚁𝚎𝚙𝚕𝚢 𝙰𝚞𝚍𝚒𝚘/𝚂𝚝𝚒𝚌𝚔𝚎𝚛/𝙸𝚖𝚊𝚐𝚎|𝙰𝚖𝚘𝚞𝚗𝚝_ ]
-├❤️⃝➤⃟̱̱̱̱̄̄̄̄🐦 ${prefix}sharelock [ _𝚃𝚎𝚡𝚝1|𝚃𝚎𝚡𝚝2_ ]
-├❤️⃝➤⃟̱̱̱̱̄̄̄̄🐦 ${prefix}sticker
-├❤️⃝➤⃟̱̱̱̱̄̄̄̄🐦 ${prefix}stickerwm [ _𝙽𝚊𝚖𝚎|𝙰𝚞𝚝𝚑𝚘𝚛_ ]
-├❤️⃝➤⃟̱̱̱̱̄̄̄̄🐦 ${prefix}takestick [ _𝙽𝚊𝚖𝚎|𝙰𝚞𝚝𝚑𝚘𝚛_ ]
-├❤️⃝➤⃟̱̱̱̱̄̄̄̄🐦 ${prefix}colong [ _𝚁𝚎𝚙𝚕𝚢 𝚂𝚝𝚒𝚌𝚔𝚎𝚛_ ]
-├❤️⃝➤⃟̱̱̱̱̄̄̄̄🐦 ${prefix}dadu
-├❤️⃝➤⃟̱̱̱̱̄̄̄̄🐦 ${prefix}semoji [ _𝙴𝚖𝚘𝚓𝚒_ ]
-├❤️⃝➤⃟̱̱̱̱̄̄̄̄🐦 ${prefix}attp [ _𝚃𝚎𝚡𝚝_ ]
-├❤️⃝➤⃟̱̱̱̱̄̄̄̄🐦 ${prefix}toimg
-├❤️⃝➤⃟̱̱̱̱̄̄̄̄🐦 ${prefix}tomp3 [ _𝚁𝚎𝚙𝚕𝚢 𝚅𝚒𝚍𝚎𝚘_ ]
-├❤️⃝➤⃟̱̱̱̱̄̄̄̄🐦 ${prefix}tomp4 [ _𝚁𝚎𝚙𝚕𝚢 𝚂𝚝𝚒𝚌𝚔𝚎𝚛 𝙶𝚒𝚏_ ]
-├❤️⃝➤⃟̱̱̱̱̄̄̄̄🐦 ${prefix}robot [ _𝚁𝚎𝚙𝚕𝚢 𝙰𝚞𝚍𝚒𝚘_ ]
-├❤️⃝➤⃟̱̱̱̱̄̄̄̄🐦 ${prefix}balik [ _𝚁𝚎𝚙𝚕𝚢 𝙰𝚞𝚍𝚒𝚘_ ]
-├❤️⃝➤⃟̱̱̱̱̄̄̄̄🐦 ${prefix}bass [ _𝚁𝚎𝚙𝚕𝚢 𝙰𝚞𝚍𝚒𝚘_ ]
-├❤️⃝➤⃟̱̱̱̱̄̄̄̄🐦 ${prefix}gemuk [ _𝚁𝚎𝚙𝚕𝚢 𝙰𝚞𝚍𝚒𝚘_ ]
-├❤️⃝➤⃟̱̱̱̱̄̄̄̄🐦 ${prefix}detikvn [ _𝚁𝚎𝚙𝚕𝚢 𝙰𝚞𝚍𝚒𝚘 𝙲𝚊𝚙𝚝𝚒𝚘𝚗 𝙽𝚞𝚖𝚋𝚎𝚛_ ]
-└❤️⃝➤⃟̱̱̱̱̄̄̄̄🐦 ${prefix}detikvideo [ _𝚁𝚎𝚙𝚕𝚢 𝚅𝚒𝚍𝚎𝚘 𝙲𝚊𝚙𝚝𝚒𝚘𝚗 𝙽𝚞𝚖𝚋𝚎𝚛_ ]`
+├❤️⃝ ${prefix}jadibot
+├❤️⃝ ${prefix}caripesan [ _𝚃𝚎𝚡𝚝|𝙰𝚖𝚘𝚞𝚗𝚝_ ]
+├❤️⃝ ${prefix}slots
+├❤️⃝ ${prefix}suit [ _𝚂𝚌𝚒𝚜𝚜𝚘𝚛𝚜/𝚂𝚝𝚘𝚗𝚎/𝙿𝚊𝚙𝚎𝚛_ ]
+├❤️⃝ ${prefix}tag [ _𝙽𝚞𝚖𝚋𝚎𝚛_ ]
+├❤️⃝ ${prefix}tagme
+├❤️⃝ ${prefix}tts [ _𝚃𝚎𝚡𝚝 𝙲𝚘𝚍𝚎_ ]
+├❤️⃝ ${prefix}readmore [ _𝚃𝚎𝚡𝚝1|𝚃𝚎𝚡𝚝2_ ]
+├❤️⃝ ${prefix}fitnahpc [ _𝙽𝚞𝚖𝚋𝚎𝚛|𝚃𝚎𝚡𝚝1|𝚃𝚎𝚡𝚝2_ ]
+├❤️⃝ ${prefix}chat [ _𝙽𝚞𝚖𝚋𝚎𝚛|𝚃𝚎𝚡𝚝_ ]
+├❤️⃝ ${prefix}fdeface [ _𝚁𝚎𝚙𝚕𝚢𝚒𝚖𝚐 𝙻𝚒𝚗𝚔|𝚃𝚎𝚡𝚝1|𝚃𝚎𝚡𝚝2_ ]
+├❤️⃝ ${prefix}listimage
+├❤️⃝ ${prefix}liststicker
+├❤️⃝ ${prefix}listvn
+├❤️⃝ ${prefix}listgrup
+├❤️⃝ ${prefix}baileys [ _𝚁𝚎𝚙𝚕𝚢 𝙼𝚎𝚜𝚜𝚊𝚐𝚎_ ]
+├❤️⃝ ${prefix}q [ _𝚁𝚎𝚙𝚕𝚢 𝙼𝚊𝚜𝚜𝚊𝚐𝚎_ ]
+├❤️⃝ ${prefix}getcaption [ _𝚁𝚎𝚙𝚕𝚢 𝙼𝚎𝚜𝚜𝚊𝚐𝚎_ ]
+├❤️⃝ ${prefix}pantun
+├❤️⃝ ${prefix}tospam [ _𝚁𝚎𝚙𝚕𝚢 𝙰𝚞𝚍𝚒𝚘/𝚂𝚝𝚒𝚌𝚔𝚎𝚛/𝙸𝚖𝚊𝚐𝚎|𝙰𝚖𝚘𝚞𝚗𝚝_ ]
+├❤️⃝ ${prefix}sharelock [ _𝚃𝚎𝚡𝚝1|𝚃𝚎𝚡𝚝2_ ]
+├❤️⃝ ${prefix}sticker
+├❤️⃝ ${prefix}stickerwm [ _𝙽𝚊𝚖𝚎|𝙰𝚞𝚝𝚑𝚘𝚛_ ]
+├❤️⃝ ${prefix}takestick [ _𝙽𝚊𝚖𝚎|𝙰𝚞𝚝𝚑𝚘𝚛_ ]
+├❤️⃝ ${prefix}colong [ _𝚁𝚎𝚙𝚕𝚢 𝚂𝚝𝚒𝚌𝚔𝚎𝚛_ ]
+├❤️⃝ ${prefix}dadu
+├❤️⃝ ${prefix}semoji [ _𝙴𝚖𝚘𝚓𝚒_ ]
+├❤️⃝ ${prefix}attp [ _𝚃𝚎𝚡𝚝_ ]
+├❤️⃝ ${prefix}toimg
+├❤️⃝ ${prefix}tomp3 [ _𝚁𝚎𝚙𝚕𝚢 𝚅𝚒𝚍𝚎𝚘_ ]
+├❤️⃝ ${prefix}tomp4 [ _𝚁𝚎𝚙𝚕𝚢 𝚂𝚝𝚒𝚌𝚔𝚎𝚛 𝙶𝚒𝚏_ ]
+├❤️⃝ ${prefix}robot [ _𝚁𝚎𝚙𝚕𝚢 𝙰𝚞𝚍𝚒𝚘_ ]
+├❤️⃝ ${prefix}balik [ _𝚁𝚎𝚙𝚕𝚢 𝙰𝚞𝚍𝚒𝚘_ ]
+├❤️⃝ ${prefix}bass [ _𝚁𝚎𝚙𝚕𝚢 𝙰𝚞𝚍𝚒𝚘_ ]
+├❤️⃝ ${prefix}gemuk [ _𝚁𝚎𝚙𝚕𝚢 𝙰𝚞𝚍𝚒𝚘_ ]
+├❤️⃝ ${prefix}detikvn [ _𝚁𝚎𝚙𝚕𝚢 𝙰𝚞𝚍𝚒𝚘 𝙲𝚊𝚙𝚝𝚒𝚘𝚗 𝙽𝚞𝚖𝚋𝚎𝚛_ ]
+└❤️⃝ ${prefix}detikvideo [ _𝚁𝚎𝚙𝚕𝚢 𝚅𝚒𝚍𝚎𝚘 𝙲𝚊𝚙𝚝𝚒𝚘𝚗 𝙽𝚞𝚖𝚋𝚎𝚛_ ]`
 katalog(menu)
 break
 //Now
@@ -1297,7 +1297,7 @@ denz.sendMessage(from, anu, image, { quoted: mek, thumbnail: fs.readFileSync('./
 break
 //My Api
        case 'maker2d2': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝑳𝑶𝑹𝑫⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩`)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/maker2?text=${makell}&apikey=${YuzApi}`)
@@ -1305,7 +1305,7 @@ break
 					denz.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 					break
 		case 'maker2d3': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝑳𝑶𝑹𝑫⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩`)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/maker3?text=${makell}&apikey=${YuzApi}`)
@@ -1313,7 +1313,7 @@ break
 					denz.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 					break
 		case 'maker2d4': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝑳𝑶𝑹𝑫⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩`)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/maker4?text=${makell}&apikey=${YuzApi}`)
@@ -1321,7 +1321,7 @@ break
 					denz.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 					break
 			case 'maker3d': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝑳𝑶𝑹𝑫⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩`)
 					makell = body.slice(8)
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/maker3d?text=${makell}&apikey=${YuzApi}`)
@@ -1329,7 +1329,7 @@ break
 					denz.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 					break
 			case 'maker3d2': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝑳𝑶𝑹𝑫⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩`)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/maker3d/no2?text=${makell}&apikey=${YuzApi}`)
@@ -1337,7 +1337,7 @@ break
 					denz.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 					break
 			case 'maker3d3': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝑳𝑶𝑹𝑫⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩`)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/maker3d/no3?text=${makell}&apikey=${YuzApi}`)
@@ -1345,7 +1345,7 @@ break
 					denz.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 					break
 			case 'maker3d4': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝑳𝑶𝑹𝑫⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩`)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/maker3d/no4?text=${makell}&apikey=${YuzApi}`)
@@ -1353,7 +1353,7 @@ break
 					denz.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 					break
 			case 'transformer': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝑳𝑶𝑹𝑫⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩`)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/maker/special/transformer?text=${makell}&apikey=${YuzApi}`)
@@ -1361,7 +1361,7 @@ break
 					denz.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 					break
 			case 'googletxt':
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} 𝙰𝙼𝙴𝙴𝙽|𝚂𝙴𝚁|𝙱𝙾𝚃`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} 𝙻𝙾𝚁𝙳|𝚂𝙴𝚁|𝙱𝙾𝚃`)
 					makell = args.join(" ")
 					ll1 = makell.split("|")[0];
 					ll2 = makell.split("|")[1];
@@ -1372,7 +1372,7 @@ break
 					denz.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 					break
 			case 'battlefield': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} 𝙰𝙼𝙴𝙴𝙽|𝚂𝙴𝚁-𝙱𝙾𝚃`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} 𝙻𝙾𝚁𝙳|𝚂𝙴𝚁-𝙱𝙾𝚃`)
 					makell = args.join(" ")
 					ll1 = makell.split("|")[0];
 					ll2 = makell.split("|")[1];
@@ -1382,7 +1382,7 @@ break
 					denz.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 					break
 			case 'coffeecup': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝑳𝑶𝑹𝑫⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩`)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/textmaker/senja?text=${makell}&theme=coffee-cup&apikey=${YuzApi}`)
@@ -1390,7 +1390,7 @@ break
 					denz.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 					break
 			case 'coffeecup2': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝑳𝑶𝑹𝑫⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩`)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/textmaker/senja?text=${makell}&theme=coffee-cup2&apikey=${YuzApi}`)
@@ -1398,7 +1398,7 @@ break
 					denz.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 					break
 			case 'neon': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝑳𝑶𝑹𝑫⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩`)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/textmaker/metallic?text=${makell}&theme=neon&apikey=${YuzApi}`)
@@ -1406,7 +1406,7 @@ break
 					denz.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 					break
 case 'glow': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝑳𝑶𝑹𝑫⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩`)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/textmaker/metallic?text=${makell}&theme=glow&apikey=${YuzApi}`)
@@ -1414,7 +1414,7 @@ case 'glow':
 					denz.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 					break
 			case 'summer': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝑳𝑶𝑹𝑫⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩`)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/textmaker/alam?text=${makell}&theme=summer&apikey=${YuzApi}`)
@@ -1422,7 +1422,7 @@ case 'glow':
 					denz.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 					break
 			case 'flower': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝑳𝑶𝑹𝑫⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩`)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/textmaker/alam?text=${makell}&theme=flower&apikey=${YuzApi}`)
@@ -1430,7 +1430,7 @@ case 'glow':
 					denz.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 					break
 			case 'burn': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝑳𝑶𝑹𝑫⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩`)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/textmaker/random?text=${makell}&theme=text-burn&apikey=${YuzApi}`)
@@ -1438,7 +1438,7 @@ case 'glow':
 					denz.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 					break
 			case 'quote': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝑳𝑶𝑹𝑫⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩`)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/textmaker/random?text=${makell}&theme=art-quote&apikey=${YuzApi}`)
@@ -1446,7 +1446,7 @@ case 'glow':
 					denz.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 					break
 			case 'wooden': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝑳𝑶𝑹𝑫⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩`)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/textmaker/roses?text=${makell}&theme=wooden-boarch&apikey=${YuzApi}`)
@@ -1454,7 +1454,7 @@ case 'glow':
 					denz.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 					break
 			case 'golden': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝑳𝑶𝑹𝑫⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩`)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/textmaker/roses?text=${makell}&theme=golden&apikey=${YuzApi}`)
@@ -1650,7 +1650,7 @@ break
 			 res = await denz.prepareMessageFromContent(from,{
 "templateMessage": {
 						"hydratedTemplate": {
-							"hydratedContentText": `Hi ${pushname} 👋,\n\nꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹ꫂ⁩`,
+							"hydratedContentText": `Hi ${pushname} 👋,\n\nꪶ𝑳𝑶𝑹𝑫⇥𝑺𝑬𝑹ꫂ⁩`,
 							"hydratedFooterText": `${NamaBot}`,
 							"hydratedButtons": [
 								{
